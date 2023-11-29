@@ -3,16 +3,22 @@ html {
     background-color: #f5f5dc;
 }
 
+header {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 head {
     color: #4B2E83;
 }
 
 body {
     color: #4B2E83;
-    font-family: 'Roboto';
+    font-family: 'DM Sans';
+    
 }
 nav {
-    text-align: center;
+    text-align: right;
 }
 
 nav a {
@@ -26,10 +32,19 @@ nav li {
 
 h1 {
     font-size: 50px;
+    font-family: 'Playfair Display';
+    font-style: italic;
 }
 
 h2 {
     font-size: 35px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    color: #6D965A;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 p {
@@ -108,4 +123,26 @@ p {
 
 .portfolio {
     text-align: center;
+}
+
+footer {
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
 }
