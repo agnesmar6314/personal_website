@@ -1,15 +1,15 @@
 
 html {
-    background-color: black
+    background-color: #f5f5dc;
 }
 
 head {
-    color: white;
+    color: #4B2E83;
 }
 
 body {
-    color: white;
-    font-family: 'Montserrat';
+    color: #4B2E83;
+    font-family: 'Roboto';
 }
 nav {
     text-align: center;
@@ -24,16 +24,39 @@ nav li {
     display: inline;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 25px;
+}
+
+
 #intro-container {
-    display: flex;
-    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
 
 #intro-image {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    margin-right: 10px; /* Add some spacing between the image and text */
+    width: 50%;
+    height: auto;
+    padding: 30px;
 
 }
+
+#scroll-text {
+    font-size: 20px;
+}
+
+
+
+
+
 
 #nav_bar ul li a.active-page {
 
@@ -43,6 +66,7 @@ nav li {
 }
 
 #scroll-container {
+    white-space: nowrap;
     overflow: hidden;
   }
 
@@ -52,9 +76,9 @@ nav li {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     
-    -moz-animation: my-animation 45s linear infinite;
-    -webkit-animation: my-animation 45s linear infinite;
-    animation: my-animation 45s linear infinite;
+    -moz-animation: my-animation 30s linear infinite;
+    -webkit-animation: my-animation 30s linear infinite;
+    animation:  my-animation 30s linear infinite;
   }
   
   /* for Firefox */
@@ -80,4 +104,8 @@ nav li {
       -webkit-transform: translateX(-100%);
       transform: translateX(-100%);
     }
-  }  
+  }
+
+.portfolio {
+    text-align: center;
+}
