@@ -125,6 +125,19 @@ p {
     text-align: center;
 }
 
+#description-container {
+    text-align: center;
+}
+
+#links {
+    text-decoration: underline;
+}
+
+#about-paragraph {
+    margin: 20px;
+    text-align: center;
+}
+
 footer {
     bottom: 0;
     right: 0;
