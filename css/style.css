@@ -138,6 +138,11 @@ p {
     text-align: center;
 }
 
+#likes {
+    font-size: 15px;
+    margin: 30px;
+}
+
 footer {
     bottom: 0;
     right: 0;
