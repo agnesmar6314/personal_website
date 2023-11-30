@@ -64,6 +64,10 @@ p {
 
 }
 
+#intro-description {
+    color: #6D965A;
+}
+
 #scroll-text {
     font-size: 20px;
 }
