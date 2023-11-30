@@ -142,9 +142,16 @@ p {
     text-align: center;
 }
 
-#likes {
+#likes-container {
     font-size: 15px;
     margin: 30px;
+    border: 5px solid;
+}
+
+#likes {
+    font-size: 15px;
+    margin: 10px;
+    color: #6D965A;
 }
 
 footer {
@@ -169,10 +176,14 @@ footer a {
     text-decoration: none;
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 600px) {
     .portfolio {
         display: grid;
         gap: 5px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #intro-image {
+        width: 30%
     }
 }
