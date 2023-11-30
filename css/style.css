@@ -76,6 +76,10 @@ img {
     font-size: 20px;
 }
 
+#portfolio-title {
+    margin-left: 10px;
+}
+
 
 
 
@@ -205,6 +209,18 @@ footer a {
         display: grid;
         gap: 5px;
         grid-template-columns: 1fr 1fr;
+    }
+
+    #intro-image {
+        width: 30%
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .portfolio {
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     #intro-image {
