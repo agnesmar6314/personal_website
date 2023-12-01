@@ -153,10 +153,17 @@ img {
     margin:20px;
 }
 
+#portfolio-img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
 #yelp-img {
     margin: 15px;
 }
 
+#yelp-img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 #description-container {
     text-align: center;
 }
@@ -226,4 +233,15 @@ footer a {
     #intro-image {
         width: 30%
     }
+}
+
+@media (prefers-reduced-motion:reduce) {
+    #scroll-text {
+        display: none;
+    }
+
+    header {
+        animation: none;
+    }
+
 }
