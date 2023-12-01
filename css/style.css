@@ -81,7 +81,9 @@ img {
 }
 
 
-
+#nav_bar li:hover {
+    color: #6D965A;
+}
 
 
 
