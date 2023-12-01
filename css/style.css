@@ -153,6 +153,15 @@ img {
     margin:20px;
 }
 
+.hover-effect {
+    transition: background-color 0.3s ease;
+  }
+
+  .hover-effect:hover {
+    transform: translateY(-5px);
+    
+  }
+
 #portfolio-img:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
